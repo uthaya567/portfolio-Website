@@ -1,6 +1,5 @@
 import "./project.css";
 import zoro from "../../assets/zoro.jpg"
-import ro from "../../assets/ro.jpg"
 const projectData = [
     {
         img : zoro,
@@ -8,17 +7,17 @@ const projectData = [
         desc :"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, perspiciatis cum dignissimos similique dolorum asperiores minima quasi molestias corrupti libero?"
     },
     {
-        img : ro,
+        img :zoro,
         title : "kkk",
         desc :"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, perspiciatis cum dignissimos similique dolorum asperiores minima quasi molestias corrupti libero?"
     },
     {
-        img : ro,
+        img :zoro,
         title : "kkk",
         desc :"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, perspiciatis cum dignissimos similique dolorum asperiores minima quasi molestias corrupti libero?"
     },
     {
-        img : ro,
+        img :zoro,
         title : "kkk",
         desc :"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, perspiciatis cum dignissimos similique dolorum asperiores minima quasi molestias corrupti libero?"
     }
