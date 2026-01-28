@@ -3,7 +3,7 @@ import "./App.css"
 import HeroCarousel from "./components/HeroCarousel";
 import About from "./components/About/About";
 import Resume from "./components/Resume/Resume";
-import Projects from "./components/projects/Projects";
+import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 export default function App() {
