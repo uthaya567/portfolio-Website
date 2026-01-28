@@ -1,8 +1,5 @@
 import "./footer.css";
 import {
-  FaTwitter,
-  FaFacebookF,
-  FaInstagram,
   FaMapMarkerAlt,
   FaPhoneAlt,
   FaEnvelope,
@@ -21,19 +18,13 @@ export default function Footer() {
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia, there live the blind texts.
           </p>
-
-          <div className="socials">
-            <a href="#"><FaTwitter /></a>
-            <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaInstagram /></a>
-          </div>
         </div>
 
         {/* Links */}
         <div className="footer-col">
           <h4>Links</h4>
           <ul>
-            <li><FaArrowRight /> Home</li>
+            <li><FaArrowRight /> <a href="#home">Home</a></li>
             <li><FaArrowRight /> About</li>
             <li><FaArrowRight /> Services</li>
             <li><FaArrowRight /> Projects</li>

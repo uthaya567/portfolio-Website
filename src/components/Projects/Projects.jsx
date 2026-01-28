@@ -44,7 +44,7 @@ export default function Projects() {
                     {projectData.map((item, index) => (
                         <div key={index} className="project-card">
                             <div className="img-style">
-                                <img src={item.img} alt="" />
+                                <img src={item.img} alt="Does not show" />
                             </div>
                             <h3>{item.title}</h3>
                             <p>{item.desc}</p>

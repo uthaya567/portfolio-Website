@@ -58,13 +58,6 @@ export default function Navbar() {
                 </button>
               </li>
             ))}
-							{/* <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="HH">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="#HHh">Resume</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-							<li class="nav-item">
-								<a class="btn btn-warning rounded-pill px-4" href="#">Contact</a>
-							</li> */}
 						</ul>
 					</div>
 				</div>
