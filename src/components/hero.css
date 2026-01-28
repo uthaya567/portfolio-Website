@@ -1,0 +1,95 @@
+/* carousel */
+.hero-wrapper {
+  position: relative;
+  height: 100vh;
+  background: black;
+  overflow: hidden;
+}
+
+/* Each slide */
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 80px;
+  opacity: 0;
+  transform: scale(1.05);
+  transition: all 1s ease;
+  pointer-events: none;
+}
+
+.hero-slide.active {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}
+
+/* Text */
+.hero-content {
+  color: white;
+  max-width: 500px;
+}
+
+.hero-content small {
+  color: #ffc107;
+  letter-spacing: 3px;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  margin: 20px 0;
+}
+
+.hero-content p {
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+/* Buttons */
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  padding: 12px 28px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background: #ffc107;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 1px solid #fff;
+  color: white;
+}
+
+/* Image */
+.hero-image {
+  height: 500px;
+  object-fit: contain;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero-slide {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .hero-image {
+    height: 300px;
+  }
+
+  .hero-content h1 {
+    font-size: 40px;
+  }
+}
