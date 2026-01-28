@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./hero.css";
 import zoro from "../assets/zoro.jpg"
-import Ro from "../assets/Ro.jpg"
+import ro from "../assets/ro.jpg"
 const slides = [
   {
     title: "I'm Clark Thompson",
@@ -15,7 +15,7 @@ const slides = [
     subtitle: "Full Stack Web Engineer",
     button1: "Contact Me",
     button2: "Portfolio",
-    image:Ro,
+    image:ro,
   },
 ];
 
