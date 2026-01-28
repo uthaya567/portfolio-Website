@@ -6,7 +6,7 @@ import zoro from "../assets/zoro.jpg";
 
 const slides = [
   {
-    title: "I'm Clark Thompson",
+    title: "I'm Uthaya Kumar",
     subtitle: "A Freelance Web Designer",
     button1: "Hire Me",
     button2: "My Works",

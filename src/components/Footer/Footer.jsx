@@ -68,7 +68,7 @@ export default function Footer() {
 
       {/* Bottom */}
       <div className="footer-bottom">
-        Copyright ©2026 All rights reserved | This template is made with ❤️ by Colorlib
+        Copyright ©2026 All rights reserved | This template is made by uthaya
       </div>
     </footer>
   );

@@ -69,3 +69,9 @@ html {
   min-height: 100vh;
   padding: 100px 20px;
 }
+.btn-menu{
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

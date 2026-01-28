@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
-
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IoClose } from "react-icons/io5";
 const sections = ["home", "about", "resume", "projects","contact"];
 
 export default function Navbar() {
   const [active, setActive] = useState("home");
+  const [Menu, setMenu] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -31,6 +33,9 @@ export default function Navbar() {
     });
   };
 
+  const functionClose = ()=>{
+    setMenu(false)
+  }
   return (
 		<>
 			<nav class="navbar navbar-expand-lg custom-navbar sticky-top">
@@ -40,7 +45,7 @@ export default function Navbar() {
 
 					{/* <!-- Toggle Button --> */}
 					<button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-						<span class="navbar-toggler-icon"></span>
+						<span className="Menustyle">{Menu?<button onClick={()=>functionClose()} className="btn-menu"><IoClose /></button>:<button onClick={()=>setMenu(true)} className="btn-menu"><GiHamburgerMenu /></button>}</span>
 					</button>
 
 					{/* <!-- Menu --> */}
