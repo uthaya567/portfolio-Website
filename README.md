@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 React Dark Theme Portfolio:
 
 This is a single-page portfolio website built using React.js, designed with a modern dark theme to provide a clean and visually appealing user experience. The portfolio highlights my projects, technical skills, and personal information in a simple and structured layout.
@@ -28,3 +29,7 @@ If any want to use this project.Use this cmd :
 2. npm install react-icons
 3. cd portfolio
 4. npm start
+=======
+# portfolio-Website
+A modern single-page portfolio website built with React.js, featuring a dark theme, responsive design, and smooth UI interactions to showcase projects and skills.
+>>>>>>> 5edca137f361990689716be3b80d7c691289b855
