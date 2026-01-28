@@ -3,7 +3,6 @@ import "./hero.css";
 
 // Import images from src/assets
 import zoro from "../assets/zoro.jpg";
-import ro from "../assets/ro.jpg";
 
 const slides = [
   {
@@ -18,7 +17,7 @@ const slides = [
     subtitle: "Full Stack Web Engineer",
     button1: "Contact Me",
     button2: "Portfolio",
-    image: ro,
+    image: zoro,
   },
 ];
 
