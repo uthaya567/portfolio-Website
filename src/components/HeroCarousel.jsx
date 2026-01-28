@@ -1,21 +1,24 @@
 import { useEffect, useState } from "react";
 import "./hero.css";
-import zoro from "../assets/zoro.jpg"
-import ro from "../assets/ro.jpg"
+
+// Import images from src/assets
+import zoro from "../assets/zoro.jpg";
+import ro from "../assets/ro.jpg";
+
 const slides = [
   {
     title: "I'm Clark Thompson",
     subtitle: "A Freelance Web Designer",
     button1: "Hire Me",
     button2: "My Works",
-    image: zoro, // put image in public folder
+    image: zoro, // imported from src/assets
   },
   {
     title: "I'm Rudeus Developer",
     subtitle: "Full Stack Web Engineer",
     button1: "Contact Me",
     button2: "Portfolio",
-    image:ro,
+    image: ro,
   },
 ];
 
@@ -31,7 +34,7 @@ export default function HeroCarousel() {
   }, []);
 
   return (
-          <div className="hero-wrapper">
+    <div className="hero-wrapper">
       {slides.map((slide, i) => (
         <div
           key={i}
@@ -48,7 +51,11 @@ export default function HeroCarousel() {
             </div>
           </div>
 
-          <img src={slide.image} className="hero-image" />
+          <img
+            src={slide.image}
+            className="hero-image"
+            alt={slide.title} // accessibility
+          />
         </div>
       ))}
     </div>
