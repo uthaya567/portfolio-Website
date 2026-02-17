@@ -3,22 +3,22 @@ import zoro from "../../assets/zoro.jpg"
 const projectData = [
     {
         img : zoro,
-        title : "kkk",
+        title : "project1",
         desc :"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, perspiciatis cum dignissimos similique dolorum asperiores minima quasi molestias corrupti libero?"
     },
     {
         img :zoro,
-        title : "kkk",
+        title : "project2",
         desc :"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, perspiciatis cum dignissimos similique dolorum asperiores minima quasi molestias corrupti libero?"
     },
     {
         img :zoro,
-        title : "kkk",
+        title : "Project3",
         desc :"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, perspiciatis cum dignissimos similique dolorum asperiores minima quasi molestias corrupti libero?"
     },
     {
         img :zoro,
-        title : "kkk",
+        title : "Project4",
         desc :"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, perspiciatis cum dignissimos similique dolorum asperiores minima quasi molestias corrupti libero?"
     }
 ];
